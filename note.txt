@@ -1,0 +1,32 @@
+1. What is mongoDB ?
+--> mongoDB is No SQL database.
+--> That store data in flexible, JSON-like document insted of traditional row and column .
+--> It use to BISION internally to store document .
+
+2. What is No SQL data base ?
+--> A No-SQL databaase are store data in forms of key value pair or graph .
+--> mongoDB is document oriented .
+
+3. What is document ?
+--> A document is a single record in mongoDB, store as a BSON .
+--> Ex - { "name": "Jyoti", "age": 22 }
+
+4. What is collection ?
+--> collection is the group of document .
+--> ex - Student collection, employee collection .
+
+5. What is BSON ?
+--> BSON stands for Binary JSON .
+--> mongoDB uses it as its document storeage format and supports datatype .
+ 
+6. What is the _id field?
+--> Every mongoDB document has unique id value whitin its collection .
+--> mongoDB generate it automaticaly .
+
+7. What is Schema ?
+--> A schema define the structure and rule for data .
+--> mongoDB document have fixble structure , but validation rules can added when needed .
+
+8. mongoDB is a programing language ?
+--> No mongoDB is a data base system .
+--> you can interact with the query method .
