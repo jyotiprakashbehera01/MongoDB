@@ -30,3 +30,11 @@
 8. mongoDB is a programing language ?
 --> No mongoDB is a data base system .
 --> you can interact with the query method .
+
+9. mongoDB CDUD operation ?
+--> CRUD operation:
+--> C = Create Data .
+--> R = read data .
+--> U = Update data .
+--> D = Delete data .
+
