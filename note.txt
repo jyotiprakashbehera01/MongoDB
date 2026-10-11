@@ -2,6 +2,8 @@
 --> mongoDB is No SQL database.
 --> That store data in flexible, JSON-like document insted of traditional row and column .
 --> It use to BISION internally to store document .
+--> It has lase relation .
+--> Data is store together .
 
 2. What is No SQL data base ?
 --> A No-SQL databaase are store data in forms of key value pair or graph .
@@ -38,3 +40,47 @@
 --> U = Update data .
 --> D = Delete data .
 
+10. what is an index in mongoDB ?
+--> An indexing helps mongoDB find documents faster with out scanning every document .
+--> However, index use storage and and written process slow .
+
+11. What is aggri gation ?
+--> an Aggrigation process documents through stages to filter, group, calculate, and transform data .
+
+12. difference between find() and Aggrigation() ?
+--> find() = retrive a document matching a querry .
+--> Aggrigation() = Support multipul-stages data processing, grouping, calculation, joins .
+
+13. What is lookup ?
+--> It joins document from another collection in a Aggrigation pipeline .
+
+14. What is embedding ?
+--> It store related data inside the same document .
+--> It's data has closely related and commonly read together .
+
+15. What is referencing ?
+--> It store an identifier pointing to a document in anoother collection .
+--> Use reference data is shared, large, or independently update .
+
+16. what is replica set ? 
+--> A replica set is a group of mongoDB server that menten copy's of same data to 
+    provide redundancy and automatic failover .
+
+17. What is sharding ?
+--> sharding distributes data across multiple machines to support 
+    large data set and high workloads .
+
+18. what mongoDB support transaction ? 
+--> Yes, mongoDB support atomic single documnet writes and multi-document transction when operations across 
+    multiple documents or collection must success or failed together .
+
+19. How does React connect to mongoDB ?
+--> React normaly does not connect directly to mongo mongoDB.
+--> React send HTTP request to a backend API build with Node.js and express.
+--> The backend uses The mongoDB driver o mongoose to access the database and returns a responce to react  .
+
+20. What is mongoose ?
+--> mongoose is an ODM library for Node.js . (ODM = Object Data Modeling)
+--> that provide schema, models, validation and convenient way to interact with mongoDB .
+
+21. 
