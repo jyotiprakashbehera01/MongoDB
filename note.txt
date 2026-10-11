@@ -83,4 +83,33 @@
 --> mongoose is an ODM library for Node.js . (ODM = Object Data Modeling)
 --> that provide schema, models, validation and convenient way to interact with mongoDB .
 
-21. 
+21. What is mongoDB Atlas ?
+--> mongoDB Atlas is a cloude-base servise rthat allows us to create,
+    mannage, and host mongoDB database online without mannageing the database server ourselves .
+
+22. What is cursor ?
+--> An object used to iterate through querry results .
+
+23. What is a TTL index ?
+--> A TTL(Time To Live) index automaticaly Deletes eligible documents after a specific period .
+--> Use case: Automatically deleting expired sessions or temporary records.
+  
+24. What is schema validation ?
+--> Schema validation allows us to define rules for the structure and 
+    data type of document so invalid data  can be rejected .
+
+25. What is acid property ? 
+--> A = Atomicity : All operation success or non do .
+    C = concentency : When data remain valid or follow database rule .
+    I = isolation : transction do not interfere with each other improperly .
+    D = Durability : Once committed, data remain saved .
+
+26. What is covered querry ?
+--> Covered querry is a querry where the filter and returned fields can be satisfied entirey by an index, 
+    without reading the full document .
+
+27. How do you secure MongoDB ?
+--> I secure mongoDB authenticatio, rol-based access controler,
+    network access restriction, TLS encription and envaroment variable credential .
+
+28. 
